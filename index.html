@@ -1,19 +1,26 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <title>Random Background</title>
-        <script src="script.js"></script>
-        <link rel="stylesheet" href="styles.css">
-
-    </head>
-    <body>
-        <div>
-            <h1 id="speaker">Background color : </h1>
-            <!-- <br> -->
-            <button id="btnRgb" class="button" onclick="randomRGB()" role="button">Click me for RGB!</button>
-            <br>
-            <button id="btnHex" class="button" onclick="randomHEX()" role="button">Click me for HEX!</button>
-        </div>
-        
-    </body>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel = "stylesheet" href="styles.css">
+    
+</head>
+<body>
+    <div id="popUp" class="popUp" onclick="reset()">dd</div>
+    <div id="central">
+        <div id="s0" class="square" onclick="player('s0')"></div>
+        <div id="s1" class="square" onclick="player('s1')"></div>
+        <div id="s2" class="square" onclick="player('s2')"></div>
+        <div id="s3" class="square" onclick="player('s3')"></div>
+        <div id="s4" class="square" onclick="player('s4')"></div>
+        <div id="s5" class="square" onclick="player('s5')"></div>
+        <div id="s6" class="square" onclick="player('s6')"></div>
+        <div id="s7" class="square" onclick="player('s7')"></div>
+        <div id="s8" class="square" onclick="player('s8')"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
 </html>
