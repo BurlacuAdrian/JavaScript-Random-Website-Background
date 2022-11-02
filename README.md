@@ -1,2 +1,2 @@
 # JavaScript-Random-Website-Background
-Short Front-End project for building a personal portfolio
+Short Front-End project my personal portfolio
